@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+
+</head>
+
+
+<body class="bg-gray-100 font-sans text-gray-800">
+
+     
+    <div class="mx-auto my-6 w-[99%] max-w-6xl rounded-xl bg-white p-4 shadow-lg sm:p-6 md:p-10">
+
+        <!-- ================= HEADER / HERO START ================= -->
+        <header id="home" class="-mx-4 -mt-4 mb-8 rounded-t-xl bg-slate-950 px-5 py-6 text-white sm:-mx-6 sm:-mt-6 sm:px-8 md:-mx-10 md:-mt-10 md:px-10 md:py-8">
+
+            <!-- Navigation -->
+            <nav class="flex items-center justify-between gap-3">
+
+                <!-- Logo -->
+                <a href="#home" class="text-2xl font-extrabold tracking-wide text-blue-400">
+                    SI
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden items-center gap-5 text-sm text-slate-300 lg:flex">
+                    <a href="#home" class="text-blue-400 transition hover:text-white">Home</a>
+                    <a href="#about" class="transition hover:text-blue-400">About</a>
+                    <a href="#projects" class="transition hover:text-blue-400">Projects</a>
+                    <a href="#contact" class="transition hover:text-blue-400">Contact</a>
+                </div>
+
+               
+                <a href="files/Md_Saidul_Islam_CV.pdf"
+                   class="rounded-full border border-slate-500 px-4 py-2 text-xs font-semibold transition hover:border-blue-400 hover:bg-blue-500 sm:text-sm">
+                    Download CV
+                </a>
+
+            </nav>
+
+            <!-- Hero Content -->
+            <div class="grid items-center gap-10 py-12 md:grid-cols-2 md:py-16">
+
+                <!-- Left Side: Introduction -->
+                <div>
+
+                    <p class="mb-2 text-lg font-medium text-blue-400">
+                        Hello, I'm
+                    </p>
+
+                    <h1 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl">
+                        MD SAIDUL
+                        <span class="text-blue-400">ISLAM</span>
+                    </h1>
+
+                    <p class="mb-5 text-sm font-medium text-slate-300 sm:text-base">
+                        CSE Student
+                        <span class="mx-2 text-blue-400">|</span>
+                        Aspiring Software Engineer
+                    </p>
+
+                    <p class="mb-7 max-w-lg text-sm leading-7 text-slate-400 sm:text-base">
+                        I'm passionate about coding, building web applications,
+                        solving real-world problems, and exploring new technologies.
+                    </p>
+
+                    <!-- Hero Buttons -->
+                    <div class="flex flex-wrap gap-3">
+
+                        <a href="https://github.com/thats-saidul?tab=repositories"
+                           class="rounded-full bg-blue-500 px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-600">
+                            View My Projects
+                        </a>
+
+                        <a href="#contact"
+                           class="rounded-full border border-slate-500 px-5 py-3 text-sm font-semibold text-white transition hover:border-blue-400 hover:bg-blue-500">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="mt-7 flex flex-wrap items-center gap-5 text-sm font-semibold text-slate-300">
+
+                        <a href="https://github.com/thats-saidul"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="transition hover:text-blue-400">
+                            GitHub
+                        </a>
+
+                        <a href="#contact"
+                           class="transition hover:text-blue-400">
+                            Contact
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side: Profile Image -->
+                <div class="flex justify-center md:justify-end">
+
+                    <div class="relative w-full max-w-xs">
+
+                        <!-- Decorative Glow -->
+                        <div class="absolute inset-4 rounded-full bg-blue-500/20 blur-3xl"></div>
+
+                        <div class="relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 shadow-2xl">
+
+                            <img
+                                src="images/Rifat2.png"
+                                alt="Md Saidul Islam"
+                                class="aspect-[4/5] w-full object-cover object-top"
+                            >
+
+                        </div>
+
+                        <p class="mt-3 text-center text-sm tracking-wide text-slate-400">
+                            Building my future through code.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+        <!-- ================= HEADER / HERO END ================= -->
+
+
+        <!-- ================= BASIC INFORMATION ================= -->
+        <section id="about" class="mt-6 rounded-xl border border-gray-200 bg-white p-5 md:p-6">
+
+
+            <h2 class="mb-5 text-2xl font-semibold text-gray-800">
+                Basic Information
+            </h2>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Name:</strong>
+                Md Saidul Islam
+            </p>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Age:</strong>
+                26
+            </p>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">University:</strong>
+                American International University-Bangladesh (AIUB)
+            </p>
+
+        </section>
+
+
+        
+        <button id="showMoreBtn"  class="mx-auto mt-6 mb-6 block rounded-lg bg-blue-600 px-6 py-3
+           text-base font-semibold text-white shadow-md
+           transition duration-300 hover:bg-blue-700 hover:shadow-lg
+           focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+           >
+            Show More Information
+        </button>
+
+
+        
+        <section id="moreInfo" 
+        class="hidden mt-6 rounded-xl border border-blue-100 bg-blue-50 p-5 md:p-6"
+        >
+
+            <h2 class="mb-5 text-2xl font-semibold text-gray-800">More About Me</h2>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Address:</strong>
+                Dhaka, Bangladesh
+            </p>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Family Background:</strong>
+                I come from a supportive family.
+            </p>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Academic History:</strong>
+                I am studying Computer Science and Engineering.
+            </p>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Hobbies:</strong>
+                Coding, learning new technologies, watching movies,
+                and exploring new ideas.
+            </p>
+
+            <p class="mb-3 leading-relaxed text-gray-700">
+                <strong class="font-semibold text-gray-900">Future Goal:</strong>
+                My goal is to become a skilled software engineer
+                and work on meaningful technology projects.
+            </p>
+
+        </section>
+
+
+       
+        <section class="mt-8 rounded-xl border border-gray-200 bg-white p-5 md:p-6">
+
+            <h2 class="mb-6 text-2xl font-semibold text-gray-800">My Projects</h2>
+
+
+            
+            <div class="mt-5 rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md md:p-6"> 
+
+                <h3 class="mb-3 text-xl font-bold text-gray-900">RIDE</h3>
+
+                <p class="mb-4 leading-relaxed text-gray-600">
+                    RIDE is a software project designed to provide
+                    convenient transportation services. 
+                    The system focuses on helping passengers 
+                    and drivers through a digital platform.
+
+                </p>
+
+                <p class="mb-4 leading-relaxed text-gray-600">
+                    The project includes features such as ride booking, 
+                    real-time tracking, secure payments, and other digital facilities.
+                </p>
+
+                <a
+                    href="https://github.com/thats-saidul/RIDE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="mt-2 inline-flex items-center rounded-lg bg-gray-900 px-5 py-3
+                    text-sm font-semibold text-white no-underline
+                    transition duration-300 hover:bg-blue-700
+                    focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+                >
+                    View Project on GitHub
+                </a>
+
+            </div>
+
+
+            
+            <div class="mt-5 rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md md:p-6">
+
+                <h3 class="mb-3 text-xl font-bold text-gray-900">Online Restaurant Management System</h3>
+
+                <p class="mb-4 leading-relaxed text-gray-600">
+                    
+                    Online Restaurant Management System is a software project 
+                    designed to efficiently manage restaurant operations. 
+                    The system focuses on helping customers, staff, and administrators through a digital platform.
+                    
+                </p>
+
+                <p class="mb-4 leading-relaxed text-gray-600">  The project includes features such as online food ordering, 
+                    table reservations, inventory management, and other digital facilities.
+                </p>
+
+                <a
+                    href="https://github.com/thats-saidul/Online-Restaurant-Management-System"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="mt-2 inline-flex items-center rounded-lg bg-gray-900 px-5 py-3
+                    text-sm font-semibold text-white no-underline
+                    transition duration-300 hover:bg-blue-700
+                    focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+                >
+                    View Project on GitHub
+                </a>
+
+            </div>
+
+        </section>
+
+
+    
+        <footer class="mt-10 border-t border-gray-200 pt-6 text-center text-sm text-gray-500">
+
+            <p>
+                © 2026 Md Saidul Islam. All Rights Reserved.
+            </p>
+
+        </footer>
+
+    </div>
+    <script src="js/script.js" defer></script> 
+
+</body>
+
+</html>
